@@ -1,5 +1,15 @@
+from light_bulb import LightBulb
+
+
+def cli():
+    bulb = LightBulb()
+    while True:
+        text = input("User: ")
+        print(text)
+
+
 def main():
-    print()
+    cli()
 
 if __name__ == "__main__":
     main()
