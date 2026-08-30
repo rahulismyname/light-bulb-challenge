@@ -1,0 +1,5 @@
+services:
+  lightbulb-cli:
+    build: .
+    stdin_open: true   # docker compose run/up -i keeps stdin open for the REPL, equivalent for -i flag
+    tty: true # It allocates a pseudo-terminal for the container, equivalent for -t flag
